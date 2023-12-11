@@ -1,11 +1,12 @@
 ﻿# EPAM Test Task
 
 ## About
-This repository contains the EPAM Systems challenge, which is divided into three parts:
+This repository contains the EPAM Systems challenge, divided into three parts:
 1. Creation of manual test scenarios
 2. Creation of database queries with MS SQL
 3. Creation of automated tests
 
+The SQL code and manual tests are available in the "Test Task - SQL and High Level Tests.pdf" file. 
 The automated tests were developed using the Playwright framework with the C# stack, covering both API and UI testing.
 
 ## How to Install
@@ -16,13 +17,13 @@ The automated tests were developed using the Playwright framework with the C# st
    git clone https://github.com/vitorc/TestTask.git
    ```
 
-2. Navigate to the DesafioEasynvest directory:
+2. Navigate to the "TestTask" directory:
 
    ```bash
-   cd ../TestTask
+   cd TestTask
    ```
 
-3. Open Visual Studio and select the StudGroups.sln file.
+3. Open Visual Studio and select the "StudGroups.sln" file.
 
 4. Install the following packages:
    - Microsoft.Playwright
